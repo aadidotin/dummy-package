@@ -2,9 +2,9 @@
 
 namespace Apack\DummyPackage\Tests;
 
+use Apack\DummyPackage\DummyPackageServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Apack\DummyPackage\DummyPackageServiceProvider;
 
 class TestCase extends Orchestra
 {

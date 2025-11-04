@@ -2,9 +2,9 @@
 
 namespace Apack\DummyPackage;
 
+use Apack\DummyPackage\Commands\DummyPackageCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Apack\DummyPackage\Commands\DummyPackageCommand;
 
 class DummyPackageServiceProvider extends PackageServiceProvider
 {
